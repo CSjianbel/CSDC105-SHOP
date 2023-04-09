@@ -38,7 +38,7 @@
                             <a class="nav-link {{request()->is('/') ? 'active' : ''}}" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {{request()->is('shop') ? 'active' : ''}}" href="#">Shop</a>
+                            <a class="nav-link {{request()->is('shop') ? 'active' : ''}}" href="/shop">Shop</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link {{request()->is('contact') ? 'active' : ''}}" href="#">Contact</a>
