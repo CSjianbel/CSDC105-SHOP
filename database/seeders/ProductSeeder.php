@@ -23,5 +23,13 @@ class ProductSeeder extends Seeder
             ]
         );
 
+        Product::create(
+            [
+                'user_id' => 1,
+                'product_name' => 'Summer Dress',
+                'price' => 1990.00,
+                'img' => 'summer.png'
+            ]
+        );
     }
 }

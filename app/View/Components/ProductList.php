@@ -8,13 +8,17 @@ class ProductList extends Component
 {
     /**
      * Create a new component instance.
-     *
+     * 
      * @return void
      */
-    public function __construct()
+    public $products;
+    public $admin;
+    public function __construct($products, $admin)
     {
-        //
+        $this->products = $products;
+        $this->admin = $admin;
     }
+
 
     /**
      * Get the view / contents that represent the component.
